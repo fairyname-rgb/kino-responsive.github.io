@@ -49,7 +49,7 @@ body {
   padding-bottom: 47px; }
 
 .bird-block {
-  background-image: url(/images/1344287851_w640_h640_33_107.png);
+  background-image: url(images/1344287851_w640_h640_33_107.png);
   background-size: 100% auto;
   width: 470px;
   height: 334px; }
@@ -201,12 +201,12 @@ img {
 .slider .slick-arrow.slick-prev {
   left: 0;
   font-size: 0;
-  background: url(/images/left.png) 0 0/100% no-repeat; }
+  background: url(images/left.png) 0 0/100% no-repeat; }
 
 .slider .slick-arrow.slick-next {
   right: 0;
   font-size: 0;
-  background: url(/images/right.png) 0 0/100% no-repeat; }
+  background: url(images/right.png) 0 0/100% no-repeat; }
 
 .ad_button {
   background: rgba(0, 0, 0, 0.7);
@@ -260,7 +260,7 @@ h5 {
   display: flex; }
 
 .header-bg {
-  background-image: url(/images/balet.png);
+  background-image: url(images/balet.png);
   height: 176px;
   width: 770px;
   background-position: center; }
