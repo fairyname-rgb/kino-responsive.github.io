@@ -1,0 +1,421 @@
+$main_font:'Playfair Display', serif;
+$main_orange: #FF7931;
+$main_black: #000000;
+$main_white: #FFFFFF;
+
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#header-text{
+padding-top: 60px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 47px;
+letter-spacing: 1px;
+padding-bottom: 46px;
+}
+.hotel_text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 72px;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+#side_adtext{
+font-family: 'Playfair Display';
+font-style: normal;
+padding-top: 32px;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.ad_image{
+    margin-bottom: 65px;
+}
+.bg{
+    background-image: url(/images/Header.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 47px;
+}
+.bird-block{
+    background-image: url(/images/1344287851_w640_h640_33_107.png);
+    background-size: 100% auto;
+    width: 470px;
+     height: 334px;
+}
+.header__list li{
+    list-style: none;
+}
+.nav-link{
+    padding-right: 50px;
+    color: $main_black;
+    font-family: 'Raleway';
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.nav-link:hover{
+    color: $main_orange;
+}
+.main-new-text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.new-text{
+    font-family:'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+}
+.small-text{
+    padding-top: 100px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+text-align: center;
+
+    padding-bottom: 48px;
+}
+.border-text{
+    padding-top: 62px;
+    padding-bottom: 44px;
+}
+
+p span{
+    background-color: $main_orange;
+    padding: 1px 12px;
+}
+
+.ad_button{
+background: rgba(0, 0, 0, 0.7);
+border: 2px solid #FF9A64;
+box-sizing: border-box;
+color: $main_white;
+text-transform: uppercase;
+padding: 11px 30px;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+cursor: pointer;
+margin-top: 70%;
+}
+.ad_button:hover{
+    border:none;
+    background-color: $main_orange;
+}
+.news_main{
+ font-family: "Raleway";
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+text-transform: uppercase;
+}
+.review-text p{
+    max-width: 426px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+padding-top: 11px;
+padding-bottom: 40px;
+}
+.review-text h4{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 23px;
+line-height: 31px;
+color: $main_black
+}
+.review-text h4:hover{
+    color: $main_orange;
+}
+.review-block{
+    margin-top: 75px;
+}
+.nav-pag{
+    padding-bottom: 87px;
+    padding-top: 40px;
+}
+.banner-text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: $main_white;
+padding-right: 47px;
+}
+.ad_block{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.slick-track{
+    display: flex;
+    margin: 0 7%;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slider{
+    margin-top: 79px;
+    margin-bottom: 111px;
+    position: relative;
+}
+.slider .slick-arrow{
+    position: absolute;
+    border: none;
+    top: 30%;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    font-size: 0;
+    background: url(/images/left.png) 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+right: 0;
+font-size: 0;
+background: url(/images/right.png) 0 0 / 100% no-repeat;
+}
+.ad_button{
+background: rgba(0, 0, 0, 0.7);
+border: 2px solid #FF9A64;
+box-sizing: border-box;
+color: $main_white;
+text-transform: uppercase;
+padding: 11px 30px;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+cursor: pointer;
+}
+
+h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;   
+}
+
+#news_block img{
+padding-right: 12px;
+}
+
+.news_block_main_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0;
+  
+}
+.news_block_main_text:hover{
+    color: $main_orange;
+    cursor: pointer;
+}
+.news_block_text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 140%;
+}
+#news_block p{
+    max-width: 127px;
+}
+#news_block img{
+width: 127px;
+height: 91px;
+}
+#news_block{
+    display: flex;
+}
+.header-bg{
+    background-image: url(/images/balet.png);
+    height: 176px;
+    width: 770px;
+    background-position: center;
+}
+.balet_button{
+    background: rgba(0, 0, 0, 0.7);
+border: 2px solid #FF9A64;
+box-sizing: border-box;
+color: $main_white;
+text-transform: uppercase;
+padding: 11px 30px;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 4px;
+    background-color: $main_white;
+    margin: 6px;
+}
+.header__burger{
+display: none;
+}
+.balet_button:hover{
+    border: none;
+    background-color: $main_orange;
+    transition: all 0.4s ease 0s;
+}
+
+  /* sm-размер (<=768px) */
+  @media (max-width: 766px) { 
+
+    .header-bg{
+        margin-bottom: 50px
+    }
+    #header-text{
+        font-size: 25px;
+        width: 146px;
+        margin: 0 auto;
+    }
+    .hotel_text{
+        font-size: 35px;
+    }
+    #news_block{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .bird-block{
+        width: 375px;
+        height: 310px;
+    }
+    .small-text{
+        padding-top: 50px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .bg{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    }
+    .ad_block{
+        flex-direction: column;
+    }
+    .slick-track{
+        display: flex;
+        margin: 0 15%;
+    }
+    .header__burger{
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        z-index: 3;
+    
+      }
+      .header__burger span{
+      position: absolute;
+      background-color: $main_orange;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      top: 25px;
+      }
+      .header__burger:before,
+      .header__burger:after{
+      content: '';
+      background-color: $main_orange;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      }
+      .header__burger:before{
+          top: 0;
+      }
+      .header__burger:after{
+        bottom: 0;
+    }
+    .header__burger.active{
+        margin-left: 90%;
+    }
+    .header__burger.active:before{
+        transform: rotate(45deg);
+        top: 24px;
+        background-color: grey;
+    }
+    .header__burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 24px;
+        background-color: grey;
+    }
+    .header__burger.active span{
+        transform: scale(0);
+    }
+      .header__menu{
+        padding-top: 76px;
+        position: fixed;
+        top: -140%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $main_white;
+      }
+      .header__menu.active{
+          top: 0;
+      }
+      .header__list{
+        display: block;
+      }
+      .header__list li{
+        background-color: #f9f9fc;
+        margin: 0px 0px 20px 0px;
+        text-transform: uppercase;
+        padding: 10px 0;
+      }
+}
+  /* xs-размер (<=575px) */
