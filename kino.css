@@ -254,10 +254,13 @@ h5 {
 
 #news_block img {
   width: 127px;
+  margin-bottom: 30px;
   height: 91px; }
 
 #news_block {
-  display: flex; }
+  display: flex;
+  padding-left: 70px;
+}
 
 .header-bg {
   background-image: url(images/balet.png);
